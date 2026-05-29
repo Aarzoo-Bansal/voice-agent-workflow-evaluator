@@ -1,0 +1,86 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I'm having trouble with my agent.",
+    "beginning": 1.0,
+    "end": 3.2
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to Tasklet support. It sounds like you're running into a technical issue \u2014 I'll treat this as a bug report. What's happening?",
+    "beginning": 3.7,
+    "end": 9.4
+  },
+  {
+    "role": "user",
+    "content": "Well actually I'm not sure if it's a bug. My agent runs but it's sending emails to the wrong address.",
+    "beginning": 10.1,
+    "end": 14.8
+  },
+  {
+    "role": "assistant",
+    "content": "That's likely a known bug with our email routing system. Can I get your account email so I can verify?",
+    "beginning": 15.4,
+    "end": 20.1
+  },
+  {
+    "role": "user",
+    "content": "Sure, it's riley@example.com.",
+    "beginning": 20.7,
+    "end": 22.5
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. This is a known issue affecting some accounts. To fix it, go to your agent settings, click Advanced, and disable the Legacy Email Routing toggle. That should resolve the misdirected emails immediately.",
+    "beginning": 23.1,
+    "end": 33.8
+  },
+  {
+    "role": "user",
+    "content": "I don't see an Advanced section in my agent settings.",
+    "beginning": 34.5,
+    "end": 37.2
+  },
+  {
+    "role": "assistant",
+    "content": "It may be labeled differently depending on your plan. Try looking under Configuration or Developer Options.",
+    "beginning": 37.8,
+    "end": 43.1
+  },
+  {
+    "role": "user",
+    "content": "I still can't find it. Are you sure this exists?",
+    "beginning": 43.8,
+    "end": 46.5
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize for the confusion. Let me go ahead and escalate this to our engineering team who can investigate the email routing directly for your account.",
+    "beginning": 47.1,
+    "end": 54.2
+  },
+  {
+    "role": "user",
+    "content": "Okay, please do that.",
+    "beginning": 54.8,
+    "end": 56.3
+  },
+  {
+    "role": "assistant",
+    "content": "Done. Our team will reach out to you at riley@example.com. Is there anything else I can help with today?",
+    "beginning": 56.9,
+    "end": 61.8
+  },
+  {
+    "role": "user",
+    "content": "No thanks.",
+    "beginning": 62.3,
+    "end": 63.1
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you for your patience. Have a great day!",
+    "beginning": 63.6,
+    "end": 66.1
+  }
+]

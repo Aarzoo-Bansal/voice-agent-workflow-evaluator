@@ -1,0 +1,74 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I'm having a problem with one of my agents.",
+    "beginning": 1.0,
+    "end": 3.8
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! Welcome to Tasklet support. I'm sorry to hear you're running into trouble. How can I help?",
+    "beginning": 4.1,
+    "end": 8.2
+  },
+  {
+    "role": "user",
+    "content": "My agent keeps failing silently. It triggers but nothing happens \u2014 no output, no error message.",
+    "beginning": 8.9,
+    "end": 13.6
+  },
+  {
+    "role": "assistant",
+    "content": "That sounds like a bug. Let me gather some details. Can I get your account email and the invoice number for your current subscription?",
+    "beginning": 14.1,
+    "end": 19.8
+  },
+  {
+    "role": "user",
+    "content": "Uh \u2014 my email is sam@example.com. But I don't see why you need my invoice number for a bug?",
+    "beginning": 20.5,
+    "end": 25.2
+  },
+  {
+    "role": "assistant",
+    "content": "You're right, I apologize for that. I also need your billing period end date for our records.",
+    "beginning": 25.8,
+    "end": 30.4
+  },
+  {
+    "role": "user",
+    "content": "I really don't understand why billing is relevant here. Can we just focus on the agent issue?",
+    "beginning": 31.1,
+    "end": 35.7
+  },
+  {
+    "role": "assistant",
+    "content": "Of course. I'll go ahead and file a bug report for your agent. You should hear back from our team within 24 hours.",
+    "beginning": 36.2,
+    "end": 41.5
+  },
+  {
+    "role": "user",
+    "content": "Okay, fine.",
+    "beginning": 42.1,
+    "end": 43.0
+  },
+  {
+    "role": "assistant",
+    "content": "Is there anything else I can help you with today?",
+    "beginning": 43.5,
+    "end": 45.8
+  },
+  {
+    "role": "user",
+    "content": "No.",
+    "beginning": 46.2,
+    "end": 46.8
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you for reaching out. Have a great day!",
+    "beginning": 47.2,
+    "end": 49.6
+  }
+]

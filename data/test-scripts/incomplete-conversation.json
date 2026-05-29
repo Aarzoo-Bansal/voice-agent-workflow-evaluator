@@ -1,0 +1,86 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I need to schedule an appointment.",
+    "beginning": 1.0,
+    "end": 3.2
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you for calling NexaCare. This is Riley, your scheduling assistant. How may I help you today?",
+    "beginning": 4.0,
+    "end": 8.5
+  },
+  {
+    "role": "user",
+    "content": "I need a general checkup. Nothing urgent.",
+    "beginning": 10.0,
+    "end": 12.8
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, a general checkup. Do you have a preferred provider?",
+    "beginning": 14.0,
+    "end": 17.2
+  },
+  {
+    "role": "user",
+    "content": "No preference. Whoever is available soonest.",
+    "beginning": 18.5,
+    "end": 20.9
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. And are you a new patient or have you visited us before?",
+    "beginning": 22.0,
+    "end": 25.4
+  },
+  {
+    "role": "user",
+    "content": "I've been there before. Returning patient.",
+    "beginning": 27.0,
+    "end": 29.3
+  },
+  {
+    "role": "assistant",
+    "content": "Great. Could I have your full name and date of birth so I can pull up your record?",
+    "beginning": 30.5,
+    "end": 34.8
+  },
+  {
+    "role": "user",
+    "content": "Maria Lopez, August 3rd 1985.",
+    "beginning": 36.0,
+    "end": 38.5
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you Maria. Let me check our available slots...",
+    "beginning": 40.0,
+    "end": 43.2
+  },
+  {
+    "role": "user",
+    "content": "Actually wait, how much does a checkup cost? I don't have insurance right now.",
+    "beginning": 45.0,
+    "end": 49.1
+  },
+  {
+    "role": "assistant",
+    "content": "I understand your concern about costs. Unfortunately, I don't have access to pricing information. You would need to speak with our billing department for that. Would you like me to transfer you?",
+    "beginning": 50.5,
+    "end": 58.3
+  },
+  {
+    "role": "user",
+    "content": "Yeah, transfer me. I need to figure out the cost first before I book anything.",
+    "beginning": 60.0,
+    "end": 64.2
+  },
+  {
+    "role": "assistant",
+    "content": "Of course. Let me transfer you to our billing team now. They'll be able to help with pricing details.",
+    "beginning": 65.5,
+    "end": 70.8
+  }
+]

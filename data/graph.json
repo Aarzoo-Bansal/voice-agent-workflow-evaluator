@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": { "x": 250, "y": 25 },
+      "data": {
+        "label": "Greeting",
+        "description": "Welcome the customer warmly. Ask how you can help today. Do not assume the issue type — wait for the customer to describe it."
+      }
+    },
+    {
+      "id": "2",
+      "type": "decision",
+      "position": { "x": 250, "y": 125 },
+      "data": {
+        "label": "Issue Classification",
+        "description": "Listen to the customer's description and classify the issue into one of three categories: billing (charges, refunds, invoices), bug (product not working, errors, unexpected behavior), or general (how-to questions, feature requests, account setup). Ask a clarifying question if the category is unclear."
+      }
+    },
+    {
+      "id": "3",
+      "type": "process",
+      "position": { "x": 250, "y": 225 },
+      "data": {
+        "label": "Information Gathering",
+        "description": "Collect the details needed to resolve the issue. For billing: account email, invoice number or charge date, amount in question. For bugs: product area, steps to reproduce, error message if any, account email. For general: specific feature or workflow the customer is asking about. Do not proceed to resolution without collecting the relevant details."
+      }
+    },
+    {
+      "id": "4",
+      "type": "process",
+      "position": { "x": 50, "y": 325 },
+      "data": {
+        "label": "Error Handling",
+        "description": "Triggered when the customer's input is unclear, the agent cannot classify the issue, or the customer expresses frustration. Acknowledge the difficulty, apologize if appropriate, ask one focused clarifying question, or offer to escalate to a human agent. Do not loop more than twice before escalating."
+      }
+    },
+    {
+      "id": "5",
+      "type": "process",
+      "position": { "x": 250, "y": 325 },
+      "data": {
+        "label": "Resolution",
+        "description": "Provide a clear resolution based on the issue type and collected information. For billing: confirm refund eligibility or explain the charge. For bugs: provide a fix, workaround, or confirm a ticket has been filed. For general: answer the question clearly with steps if needed. Confirm with the customer that the resolution addresses their issue."
+      }
+    },
+    {
+      "id": "6",
+      "type": "end",
+      "position": { "x": 250, "y": 425 },
+      "data": {
+        "label": "Wrap-up",
+        "description": "Thank the customer for reaching out. Ask if there is anything else you can help with today. If yes, return to Issue Classification. If no, close warmly: 'Have a great day! Don't hesitate to reach out if anything else comes up.'"
+      }
+    }
+  ],
+  "edges": [
+    { "id": "e1-2", "source": "1", "target": "2" },
+    { "id": "e2-3", "source": "2", "target": "3" },
+    { "id": "e3-4", "source": "3", "target": "4" },
+    { "id": "e3-5", "source": "3", "target": "5" },
+    { "id": "e4-5", "source": "4", "target": "5" },
+    { "id": "e5-6", "source": "5", "target": "6" },
+    { "id": "e6-2", "source": "6", "target": "2" }
+  ]
+}

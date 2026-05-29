@@ -1,0 +1,50 @@
+[
+  {
+    "role": "user",
+    "content": "Hi there.",
+    "beginning": 1.0,
+    "end": 1.9
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to Tasklet support. How can I help you today?",
+    "beginning": 2.2,
+    "end": 5.1
+  },
+  {
+    "role": "user",
+    "content": "I'm trying to figure out how to set up a recurring schedule trigger. I can't find it in the UI.",
+    "beginning": 5.8,
+    "end": 10.2
+  },
+  {
+    "role": "assistant",
+    "content": "Sure, that's a general how-to question. Which part of the UI are you currently in?",
+    "beginning": 10.7,
+    "end": 14.1
+  },
+  {
+    "role": "user",
+    "content": "I'm on the agent page, I see Connections and Triggers but I don't know where to go from there.",
+    "beginning": 14.8,
+    "end": 19.3
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. Click on Triggers, then select Add Trigger. You'll see a Schedule option. From there you can set a cron expression or choose a simple interval like daily or weekly.",
+    "beginning": 19.9,
+    "end": 28.4
+  },
+  {
+    "role": "user",
+    "content": "Oh I see it now! That makes sense.",
+    "beginning": 29.1,
+    "end": 31.2
+  },
+  {
+    "role": "assistant",
+    "content": "Great, glad that helped!",
+    "beginning": 31.6,
+    "end": 33.1
+  }
+]

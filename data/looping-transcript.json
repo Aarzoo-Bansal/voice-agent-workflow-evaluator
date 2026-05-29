@@ -1,0 +1,220 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, my internet has been acting up all morning.",
+    "beginning": 1.0,
+    "end": 3.5
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Thanks for calling TechLine support, my name is Alex. I'm sorry to hear about the trouble with your internet. Let me help you get that sorted out.",
+    "beginning": 4.0,
+    "end": 10.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "Can you describe what's happening? Is the connection dropping completely, or is it just slow?",
+    "beginning": 10.5,
+    "end": 14.0
+  },
+  {
+    "role": "user",
+    "content": "It keeps disconnecting every few minutes. The Wi-Fi light on the router blinks red and then goes back to normal.",
+    "beginning": 15.0,
+    "end": 20.0
+  },
+  {
+    "role": "assistant",
+    "content": "Got it — intermittent disconnections with a red blinking light. Have you tried restarting the router already?",
+    "beginning": 21.0,
+    "end": 25.0
+  },
+  {
+    "role": "user",
+    "content": "Yeah, I restarted it twice this morning. It comes back for a bit and then drops again.",
+    "beginning": 26.0,
+    "end": 30.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "Okay, let's try a full power cycle. Unplug the router from the wall, wait 30 seconds, and plug it back in. Let me know once it's fully booted up.",
+    "beginning": 31.0,
+    "end": 37.0
+  },
+  {
+    "role": "user",
+    "content": "Alright, give me a moment... Okay, it's back on. All lights are green now.",
+    "beginning": 38.0,
+    "end": 70.0
+  },
+  {
+    "role": "assistant",
+    "content": "Great, the lights look good. Can you try loading a webpage or running a speed test to see if the connection holds?",
+    "beginning": 71.0,
+    "end": 75.0
+  },
+  {
+    "role": "user",
+    "content": "It loaded fine but... wait, it just dropped again. The red light is back.",
+    "beginning": 76.0,
+    "end": 82.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "Okay, so the power cycle didn't hold. That red blinking pattern usually points to a firmware or signal issue. Let me check your account for any outages in your area.",
+    "beginning": 83.0,
+    "end": 89.0
+  },
+  {
+    "role": "user",
+    "content": "Sure, go ahead.",
+    "beginning": 90.0,
+    "end": 91.0
+  },
+  {
+    "role": "assistant",
+    "content": "I don't see any outages in your area. But I can see your router's firmware is two versions behind. That could be causing instability. I'm going to push a firmware update remotely — it should take about two minutes. Your internet will drop briefly during the update.",
+    "beginning": 92.0,
+    "end": 102.0
+  },
+  {
+    "role": "user",
+    "content": "Okay, do it.",
+    "beginning": 103.0,
+    "end": 104.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "The firmware update is complete. Your router should be rebooting now. Can you check if the lights are all green?",
+    "beginning": 105.0,
+    "end": 225.0
+  },
+  {
+    "role": "user",
+    "content": "Yeah, all green. Let me try browsing... It's working. I'll wait a few minutes to see if it drops again.",
+    "beginning": 226.0,
+    "end": 235.0
+  },
+  {
+    "role": "assistant",
+    "content": "Sounds good, take your time. I'll stay on the line.",
+    "beginning": 236.0,
+    "end": 238.0
+  },
+  {
+    "role": "user",
+    "content": "It's been about three minutes and it's still connected. But now I'm noticing something else — the speed is really slow. Pages take forever to load.",
+    "beginning": 239.0,
+    "end": 420.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "Okay, so the disconnections may be fixed but now we have a speed issue. Can you run a speed test? You can go to speedtest.net and tell me the download and upload numbers.",
+    "beginning": 421.0,
+    "end": 428.0
+  },
+  {
+    "role": "user",
+    "content": "It says 8 Mbps download and 2 Mbps upload. I'm supposed to be getting 200 Mbps.",
+    "beginning": 429.0,
+    "end": 435.0
+  },
+  {
+    "role": "assistant",
+    "content": "That's way below your plan. Let me check the signal levels on your modem from our end.",
+    "beginning": 436.0,
+    "end": 440.0
+  },
+  {
+    "role": "user",
+    "content": "Sure.",
+    "beginning": 441.0,
+    "end": 442.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "I can see your signal-to-noise ratio is very low — that usually means there's interference or a degraded line. Let me try resetting the modem's connection profile from here.",
+    "beginning": 443.0,
+    "end": 450.0
+  },
+  {
+    "role": "user",
+    "content": "Go for it.",
+    "beginning": 451.0,
+    "end": 452.0
+  },
+  {
+    "role": "assistant",
+    "content": "Done. Your modem is reconnecting now. Give it about a minute and then run the speed test again.",
+    "beginning": 453.0,
+    "end": 520.0
+  },
+  {
+    "role": "user",
+    "content": "Okay... it's showing 12 Mbps now. Better but still nowhere near 200.",
+    "beginning": 521.0,
+    "end": 528.0
+  },
+
+  {
+    "role": "assistant",
+    "content": "Yeah, 12 Mbps is still way off. Given that the firmware update and modem reset didn't fully resolve this, I suspect there may be a physical line issue or equipment problem that I can't fix remotely.",
+    "beginning": 529.0,
+    "end": 538.0
+  },
+  {
+    "role": "user",
+    "content": "So what happens now?",
+    "beginning": 539.0,
+    "end": 540.5
+  },
+  {
+    "role": "assistant",
+    "content": "I'm going to escalate this to our senior network team. They'll be able to run deeper diagnostics and dispatch a technician if needed. I've created ticket number TL-20260416-0892 for you. You should receive a callback within 4 hours.",
+    "beginning": 541.0,
+    "end": 552.0
+  },
+  {
+    "role": "user",
+    "content": "Alright, that works. Will they have all the info from this call?",
+    "beginning": 553.0,
+    "end": 556.0
+  },
+  {
+    "role": "assistant",
+    "content": "Yes, I've attached all the details — the disconnection issue, the firmware update we did, the modem reset, and the speed test results. They'll have the full picture.",
+    "beginning": 557.0,
+    "end": 564.0
+  },
+
+  {
+    "role": "user",
+    "content": "Okay. Thanks for trying at least.",
+    "beginning": 565.0,
+    "end": 567.0
+  },
+  {
+    "role": "assistant",
+    "content": "Of course! So to summarize: we fixed the intermittent disconnections with a firmware update, but the slow speed issue needs a deeper look. Your ticket is TL-20260416-0892 and the senior team will call you back within 4 hours. Is there anything else I can help with?",
+    "beginning": 568.0,
+    "end": 580.0
+  },
+  {
+    "role": "user",
+    "content": "No, that's everything. Thanks Alex.",
+    "beginning": 581.0,
+    "end": 583.0
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome! Thanks for calling TechLine, and I hope we get your speed sorted out quickly. Have a great day!",
+    "beginning": 584.0,
+    "end": 590.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "role": "user",
+    "content": "Hey I need help with a bug.",
+    "beginning": 1.0,
+    "end": 2.9
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! Welcome to Tasklet support. I'm happy to help. Can you describe what you're running into?",
+    "beginning": 13.8,
+    "end": 17.4
+  },
+  {
+    "role": "user",
+    "content": "Sure. When I try to use the web browser feature, it just shows a blank screen. Nothing loads.",
+    "beginning": 18.1,
+    "end": 22.5
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, that sounds like a bug with the built-in browser. Let me classify this properly.",
+    "beginning": 33.2,
+    "end": 37.8
+  },
+  {
+    "role": "user",
+    "content": "Actually, before we get into that \u2014 how much does the higher plan cost? I'm thinking of upgrading.",
+    "beginning": 38.4,
+    "end": 43.1
+  },
+  {
+    "role": "assistant",
+    "content": "Sure! Our Premier plan is $49 per month and our Max plan is $99 per month. Both include the built-in browser. Happy to share more details if you'd like, but I also want to make sure we fix your current issue.",
+    "beginning": 54.9,
+    "end": 66.2
+  },
+  {
+    "role": "user",
+    "content": "Okay that's helpful. Let's go back to the bug.",
+    "beginning": 66.9,
+    "end": 69.4
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect. Can I get your account email and the browser or OS you're using when you see the blank screen?",
+    "beginning": 80.3,
+    "end": 85.8
+  },
+  {
+    "role": "user",
+    "content": "It's jordan@example.com. I'm using Chrome on macOS.",
+    "beginning": 86.5,
+    "end": 89.9
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you. And are there any error messages in the browser console, or is it completely blank with no output?",
+    "beginning": 101.1,
+    "end": 106.4
+  },
+  {
+    "role": "user",
+    "content": "Completely blank. No errors I can see.",
+    "beginning": 107.0,
+    "end": 109.6
+  },
+  {
+    "role": "assistant",
+    "content": "Understood. I'll file a bug report for this. Our engineering team will investigate the blank screen issue on Chrome macOS and follow up with you at jordan@example.com within 24 hours.",
+    "beginning": 120.8,
+    "end": 131.2
+  },
+  {
+    "role": "user",
+    "content": "Sounds good, thanks.",
+    "beginning": 131.8,
+    "end": 133.2
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome! Is there anything else I can help you with today?",
+    "beginning": 144.6,
+    "end": 148.1
+  },
+  {
+    "role": "user",
+    "content": "No, that's all.",
+    "beginning": 148.7,
+    "end": 150.0
+  },
+  {
+    "role": "assistant",
+    "content": "Great. Have a wonderful day and don't hesitate to reach out if anything comes up!",
+    "beginning": 161.3,
+    "end": 165.8
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I need some help.",
+    "beginning": 1.1,
+    "end": 2.8
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! Welcome to Tasklet support. I'm happy to help you today.",
+    "beginning": 3.0,
+    "end": 6.2
+  },
+  {
+    "role": "user",
+    "content": "Yeah I've been having some trouble with my account.",
+    "beginning": 7.1,
+    "end": 9.4
+  },
+  {
+    "role": "assistant",
+    "content": "Of course. Can I get your account email address so I can look into that for you?",
+    "beginning": 9.8,
+    "end": 13.1
+  },
+  {
+    "role": "user",
+    "content": "Sure, it's alex@example.com.",
+    "beginning": 14.0,
+    "end": 16.2
+  },
+  {
+    "role": "assistant",
+    "content": "Got it. And what specifically is happening with your account?",
+    "beginning": 16.6,
+    "end": 19.3
+  },
+  {
+    "role": "user",
+    "content": "I was charged twice for the same month. I see two identical charges on my card.",
+    "beginning": 20.1,
+    "end": 24.7
+  },
+  {
+    "role": "assistant",
+    "content": "I can see the duplicate charge on your account. I'll escalate this to our billing team and you should receive a refund within 5 to 7 business days.",
+    "beginning": 25.2,
+    "end": 31.8
+  },
+  {
+    "role": "user",
+    "content": "Okay, thank you.",
+    "beginning": 32.5,
+    "end": 33.6
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome! Is there anything else I can help you with today?",
+    "beginning": 34.0,
+    "end": 36.8
+  },
+  {
+    "role": "user",
+    "content": "No that's all.",
+    "beginning": 37.2,
+    "end": 38.3
+  },
+  {
+    "role": "assistant",
+    "content": "Great. Have a wonderful day and don't hesitate to reach out if anything else comes up!",
+    "beginning": 38.7,
+    "end": 42.1
+  }
+]

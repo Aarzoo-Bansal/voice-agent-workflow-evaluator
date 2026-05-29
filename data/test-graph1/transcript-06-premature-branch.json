@@ -1,0 +1,74 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I need help with my account.",
+    "beginning": 1.0,
+    "end": 2.9
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to Tasklet support. How can I help you today?",
+    "beginning": 3.3,
+    "end": 6.1
+  },
+  {
+    "role": "user",
+    "content": "I'm just a bit confused about how things work.",
+    "beginning": 6.8,
+    "end": 9.2
+  },
+  {
+    "role": "assistant",
+    "content": "I understand. It sounds like you might have a billing concern. Let me pull up your account. Can I get your email address and the charge you're seeing?",
+    "beginning": 9.7,
+    "end": 15.4
+  },
+  {
+    "role": "user",
+    "content": "No, no billing issue. I just want to know how triggers work.",
+    "beginning": 16.0,
+    "end": 19.3
+  },
+  {
+    "role": "assistant",
+    "content": "Oh I see, my apologies for the assumption. So you're asking about billing trigger thresholds \u2014 let me check our pricing page for the details.",
+    "beginning": 19.9,
+    "end": 25.6
+  },
+  {
+    "role": "user",
+    "content": "No \u2014 I mean agent triggers. Like scheduling an agent to run automatically.",
+    "beginning": 26.2,
+    "end": 30.4
+  },
+  {
+    "role": "assistant",
+    "content": "Got it, thank you for clarifying. Triggers in Tasklet let your agent run automatically based on events or schedules. You can set them up by going to your agent page and clicking the Triggers tab. From there you can add a schedule, a webhook, or an event-based trigger.",
+    "beginning": 31.0,
+    "end": 44.8
+  },
+  {
+    "role": "user",
+    "content": "That makes sense now, thank you.",
+    "beginning": 45.4,
+    "end": 47.3
+  },
+  {
+    "role": "assistant",
+    "content": "Great! Is there anything else I can help you with?",
+    "beginning": 47.8,
+    "end": 50.1
+  },
+  {
+    "role": "user",
+    "content": "Nope, that's it.",
+    "beginning": 50.6,
+    "end": 51.8
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect. Have a wonderful day and don't hesitate to reach out if anything comes up!",
+    "beginning": 52.2,
+    "end": 55.9
+  }
+]

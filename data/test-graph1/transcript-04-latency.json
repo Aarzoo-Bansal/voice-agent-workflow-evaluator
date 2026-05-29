@@ -1,0 +1,86 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I have a billing question.",
+    "beginning": 1.0,
+    "end": 3.1
+  },
+  {
+    "role": "assistant",
+    "content": "Hello! Welcome to Tasklet support. How can I help you today?",
+    "beginning": 19.4,
+    "end": 22.8
+  },
+  {
+    "role": "user",
+    "content": "I was charged but I cancelled my plan last week. I shouldn't have been billed.",
+    "beginning": 23.5,
+    "end": 27.9
+  },
+  {
+    "role": "assistant",
+    "content": "I see, that sounds like a billing issue. Let me help you with that.",
+    "beginning": 44.6,
+    "end": 48.2
+  },
+  {
+    "role": "user",
+    "content": "Yes please.",
+    "beginning": 48.9,
+    "end": 49.7
+  },
+  {
+    "role": "assistant",
+    "content": "Could I get your account email address and the approximate date of the charge?",
+    "beginning": 66.1,
+    "end": 70.4
+  },
+  {
+    "role": "user",
+    "content": "It's priya@example.com and the charge was on the 14th of this month.",
+    "beginning": 71.2,
+    "end": 75.8
+  },
+  {
+    "role": "assistant",
+    "content": "Thank you. And do you happen to have the invoice number or the charge amount?",
+    "beginning": 92.3,
+    "end": 96.7
+  },
+  {
+    "role": "user",
+    "content": "It was $49. I don't have the invoice number handy.",
+    "beginning": 97.4,
+    "end": 100.6
+  },
+  {
+    "role": "assistant",
+    "content": "That's fine. I can see the charge on your account. Since your cancellation was processed before the billing date, you are eligible for a full refund. I'll submit that now and you should see it in 5 to 7 business days.",
+    "beginning": 118.2,
+    "end": 130.1
+  },
+  {
+    "role": "user",
+    "content": "Oh great, thank you.",
+    "beginning": 130.8,
+    "end": 132.3
+  },
+  {
+    "role": "assistant",
+    "content": "You're welcome! Is there anything else I can help you with today?",
+    "beginning": 149.7,
+    "end": 153.0
+  },
+  {
+    "role": "user",
+    "content": "No, that's everything.",
+    "beginning": 153.6,
+    "end": 155.1
+  },
+  {
+    "role": "assistant",
+    "content": "Perfect. Have a wonderful day and don't hesitate to reach out if anything else comes up!",
+    "beginning": 171.4,
+    "end": 175.9
+  }
+]

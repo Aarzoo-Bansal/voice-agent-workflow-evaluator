@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {"id": "e1-2", "source": "1", "target": "2"},
+    {"id": "e2-3", "source": "2", "target": "3"},
+    {"id": "e3-2", "source": "3", "target": "2"},
+    {"id": "e3-4", "source": "3", "target": "4"},
+    {"id": "e3-5", "source": "3", "target": "5"},
+    {"id": "e4-5", "source": "4", "target": "5"}
+  ],
+  "nodes": [
+    {
+      "id": "1",
+      "data": {
+        "label": "Greeting",
+        "description": "Greet the customer, introduce yourself, and ask what issue they're experiencing."
+      },
+      "type": "start",
+      "position": {"x": 100, "y": 150}
+    },
+    {
+      "id": "2",
+      "data": {
+        "label": "Diagnose Issue",
+        "description": "Ask clarifying questions to identify the specific problem. Gather details: error messages, when it started, what the customer has already tried."
+      },
+      "type": "process",
+      "position": {"x": 300, "y": 150}
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "Attempt Fix",
+        "description": "Walk the customer through a troubleshooting step. Confirm whether the fix worked. If resolved, proceed to wrap-up. If not, loop back to diagnose the next issue or escalate."
+      },
+      "type": "decision",
+      "position": {"x": 500, "y": 150}
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "Escalate",
+        "description": "If the issue cannot be resolved after multiple attempts, escalate to a senior technician. Provide the customer with a ticket number and expected callback time."
+      },
+      "type": "process",
+      "position": {"x": 500, "y": 300}
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "Wrap-up",
+        "description": "Summarize what was done, confirm the customer is satisfied or aware of next steps, and close the call."
+      },
+      "type": "end",
+      "position": {"x": 700, "y": 150}
+    }
+  ]
+}
