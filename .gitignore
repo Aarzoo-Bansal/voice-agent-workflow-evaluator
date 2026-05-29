@@ -1,0 +1,6 @@
+node_modules/
+.env
+output/
+visualization/node_modules/
+visualization/dist/
+.DS_Store
