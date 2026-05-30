@@ -1,4 +1,4 @@
-# Workflow Verification Engine
+# Flow Check
 
 A system that evaluates whether a conversational AI agent followed a prescribed workflow correctly during a conversation. Given a workflow graph (the expected flow) and a conversation transcript, it produces adherence scores, performance metrics, per-node quality assessments, and a human-readable summary.
 
